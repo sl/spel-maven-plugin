@@ -1,0 +1,45 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building simple-it 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ simple-it ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\slazarus\Documents\Git\spel-maven-plugin\src\it\simple-it\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ simple-it ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ simple-it ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\slazarus\Documents\Git\spel-maven-plugin\src\it\simple-it\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ simple-it ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ simple-it ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: C:\Users\slazarus\Documents\Git\spel-maven-plugin\src\it\simple-it\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ simple-it ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\Users\slazarus\Documents\Git\spel-maven-plugin\src\it\simple-it\target\simple-it-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.111s
+[INFO] Finished at: Mon Jul 27 13:26:05 EDT 2015
+[INFO] Final Memory: 7M/155M
+[INFO] ------------------------------------------------------------------------
